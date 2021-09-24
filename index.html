@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="app.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">GianmarcoDev</a>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li><!--
+            --><li><a href="#about">About</a></li><!--
+            --><li><a href="#proj">Projects</a></li><!--
+            --><li><a href="#contact">Contact</a></li><!--
+            --><li><a href='attr.html'>Attribution</a></li>
+        </ul>
+        <span class="lnr lnr-menu hamb"></span>
+    </header>
+    <div class="hero">
+        <div class="copy">
+            <h1>Hello, i'm Gianmarco</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus magni obcaecati aspernatur repudiandae sequi. Saepe perferendis deserunt at amet? Non delectus facere, rerum est similique assumenda porro velit. Blanditiis, accusamus.</p>
+        </div>
+    </div>    
+    <div class="about" id="about">
+        <div class="title"><h2>MySelf</h2></div>
+        <div class="body">
+            <div class="copy">
+                <p class='desc'>I grew up in a small town in Abruzzo, Francavilla al Mare. I spent my childhood surrounded by friends and technology, learning how computers work at the age of 5, with a ThinkPad. I've only seen videos on youtube and occasionally read articles, but I've never approached the world of programming. At the age of 13-14 I started learning HTML and CSS, and last year, at the age of 15 I learned vanilla PHP.
+
+                    Today, I create websites linked with MySQL Databases, and programmed in PHP and I'm starting to venture into the world of Javascript, NodeJS and Electron. </p>
+            </div>
+        </div>
+    </div>
+    <div class="proj" id="proj">
+        <div class="title"><h2>Projects</h2></div>
+        <div class="body">
+            <div class="copy">
+                <p>In the past, I have completed some work related to the world of programming, markup language, and styling. And I got those jobs through patience and studying the different languages over time. 
+                    I've worked for a medical clinic, a restaurant, and a school. I have a <a href='https://gianmarcoii.github.io/CV/' target="_blank" class='link'>webpage</a> where you can view my resume. <br> In case you have any questions you would like to ask me, you can contact me on the following social media outlets:</p>
+                <div class="ctas">
+                    <a href="#" class="cta tw">Twitter</a>
+                    <a href="#" class="cta fvr">Fiverr</a>
+                    <a href="#" class="cta ig">Instagram</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id='contact'>
+        <div class="title"><h2>Get in Touch</h2></div>
+        <div class="body">
+            <form action="mailto:gimmy.none@gmai.com" accept-charset="utf-8">
+                <input type="text" name='fl' placeholder="Full Name..."><br>
+                <input type="text" name='email' placeholder="Email..."><br>
+                <textarea name="msg" id="" cols="30" rows="10"></textarea><br>
+                <input type="submit" name='submit' value="Send Email">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
